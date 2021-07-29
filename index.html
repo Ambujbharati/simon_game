@@ -19,32 +19,57 @@
 </head>
 
 <body>
+  <!-- Header -->
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <!-- <h3 class="text-white h3">Score Board</h3>
+      <h5 class="p1 text-white h5">Player 1</h5>
+      <span class="text-muted">Score</span>
+      <h5 class="p2 text-white h5">Player 1</h5>
+      <span class="text-muted">Score</span>
+      <h5 class="p3 text-white h5">Player 1</h5>
+      <span class="text-muted">Score</span> -->
+      <h3 class="p1 text-white h3">HIGH SCORES</h3>
+      <ul id="highScores" style="color: white; list-style: none;"></ul>
+    </div>
+  </div>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </nav>
 
-  <h1 id="level-title">Press A Key to Start</h1>
+
+  <!-- Content -->
+  <h1 id="level-title">Press Any Key to Start OR <button type="button" class="btn btn-success">Click here</button></h1>
+  <button type="button" id="bt" class="btn btn-success">Click here</button>
   <div class="container">
     <div class="row">
 
-      <div type="button" id="green" class="btn green">
+      <div type="button" id="green" class="btnl green">
 
       </div>
 
-      <div type="button" id="red" class="btn red">
+      <div type="button" id="red" class="btnl red">
 
       </div>
     </div>
 
     <div class="row">
 
-      <div type="button" id="yellow" class="btn yellow">
+      <div type="button" id="yellow" class="btnl yellow">
 
       </div>
-      <div type="button" id="blue" class="btn blue">
+      <div type="button" id="blue" class="btnl blue">
 
       </div>
 
     </div>
 
   </div>
+
 
 </body>
 <!-- Bootstrap JS -->
